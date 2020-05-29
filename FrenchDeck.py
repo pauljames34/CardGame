@@ -34,7 +34,7 @@ print(choice(deck))
 print('\n\nFirst three cards in deck')
 print(deck[:3])
 
-print('\n\nAll the aces, card 12, skip 13 items, repeat')
+print('\n\nA slice of all the aces, card 12, skip 13 items, repeat')
 print(deck[12::13])
 
 print('\n\nAll the cards')
